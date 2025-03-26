@@ -44,6 +44,9 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (DialogueManager.isActive == true)
+            return;
+
         PlayerInput();
     }
 
