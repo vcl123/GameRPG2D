@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 3075371085531661715}
   - component: {fileID: 4012230058728635717}
   - component: {fileID: 5372685797496973915}
+  - component: {fileID: 1346220867085489888}
+  - component: {fileID: 4527157180302897984}
+  - component: {fileID: 4819447352421540533}
   m_Layer: 0
   m_Name: Tree (3)
   m_TagString: Untagged
@@ -125,3 +128,65 @@ CapsuleCollider2D:
   m_Offset: {x: 0.038435686, y: -0.13349645}
   m_Size: {x: 1.1303695, y: 0.7330141}
   m_Direction: 1
+--- !u!58 &1346220867085489888
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2269573480790639105}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.01944089, y: 1.194044}
+  m_Radius: 0.8106433
+--- !u!114 &4527157180302897984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2269573480790639105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bec885cfbe1e5245a8197eaff9a3f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transparencyAmount: 0.8
+  fadeTime: 0.4
+--- !u!114 &4819447352421540533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2269573480790639105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74404f3bde1cf9849bead96a94299a8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

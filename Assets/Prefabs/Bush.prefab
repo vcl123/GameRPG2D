@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8250308237165823899}
   - component: {fileID: 7475532317435370726}
   - component: {fileID: 1879777042939678916}
+  - component: {fileID: 1422373164672965212}
+  - component: {fileID: -5312950571460139428}
   m_Layer: 0
   m_Name: Bush
   m_TagString: Untagged
@@ -125,3 +127,31 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &1422373164672965212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3359502098930504467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c77604d82e6e70439327692d6b995e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyVFX: {fileID: 1793120617208658119, guid: efe82c7719962ee449a3022b862692e4, type: 3}
+--- !u!114 &-5312950571460139428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3359502098930504467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2800aa6d68a0cc34b83370a6fbf2f15c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 8814446503335248929, guid: 02029d1397bdbdc48beb6c285fe7faec, type: 3}
+  healthGlobe: {fileID: 8814446503335248929, guid: c05c5ba47f500b041af30770a6a83b56, type: 3}
+  staminaGlobe: {fileID: 8814446503335248929, guid: 3952042ff92e8ab4f9fab1ffa43d821b, type: 3}
